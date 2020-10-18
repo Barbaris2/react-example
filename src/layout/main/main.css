@@ -1,0 +1,42 @@
+.main {
+  text-align: center;
+}
+
+.circle {
+  counter-reset: list-counter;
+  list-style: none;
+  float: left;
+}
+.circle li {
+  margin: 1em 0;
+}
+.circle li:before {
+  content: counter(list-counter);
+  counter-increment: list-counter;
+  width: 1em;
+  height: 1em;
+  padding: 0.4em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  border: 0.25em solid #ccc;
+  background: #000;
+  color: #fff;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.circle a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.circle a:hover {
+  font-size: 1.1rem;
+  transition: 0.7s;
+}
+
+.circle a:not(:hover) {
+  transition: 0.7s;
+}

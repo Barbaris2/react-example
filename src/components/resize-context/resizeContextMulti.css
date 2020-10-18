@@ -1,0 +1,32 @@
+.containerMulti {
+  margin: 10px 10px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  resize: both;
+  overflow: hidden;
+  background: #d7dfe2;
+}
+
+.header {
+  background: #ffb754;
+  line-height: 2;
+  text-align: center;
+}
+
+.header[data-big-title='true'] {
+  font-size: 2em;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content[data-theme='dark'] {
+  background: #3b3b3b;
+  color: white;
+}
