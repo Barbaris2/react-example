@@ -4,15 +4,24 @@
   "private": true,
   "dependencies": {
     "@inovua/reactdatagrid-community": "^4.0.2",
+    "@szhsin/react-menu": "^0.10.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "react": "^16.14.0",
+    "react-async-watcher": "^1.0.1",
     "react-dom": "^16.14.0",
     "react-resize-context": "^3.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-world-flags": "^1.4.0"
+    "react-simple-typewriter": "^1.0.13",
+    "react-use-tag-truncator": "^1.1.0",
+    "react-world-flags": "^1.4.0",
+    "typescript": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

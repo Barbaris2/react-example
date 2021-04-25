@@ -25,6 +25,42 @@ const Main = () => {
             Data-grid
           </a>{' '}
         </li>
+        <li>
+          <a
+            href='https://reactjsexample.com/a-customisable-and-optimised-react-menu-library-with-accessibility/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Menu
+          </a>{' '}
+        </li>
+        <li>
+          <a
+            href='https://reactjsexample.com/a-react-component-for-adding-a-nice-typewriter-effect/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Type writer
+          </a>{' '}
+        </li>
+        <li>
+          <a
+            href='https://reactjsexample.com/a-simple-react-hook-to-truncate-items-in-the-given-list/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            useTagTruncator
+          </a>{' '}
+        </li>
+        <li>
+          <a
+            href='https://reactjsexample.com/react-hook-to-execute-and-watch-async-function/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            hook watch async function
+          </a>{' '}
+        </li>
       </ul>
     </div>
   );

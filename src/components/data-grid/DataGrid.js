@@ -150,7 +150,7 @@ const DataGrid = () => {
 
   return (
     <div className='container-grid'>
-      <h2>Data-grid example:</h2>
+      <h2>Data-grid simple table:</h2>
       <ReactDataGrid
         idProperty='id'
         columns={columns}
